@@ -10,7 +10,7 @@ const config = {
   outdir: 'www',
   plugins: [
     NodeModulesPolyfills.default(),
-  ]
+  ],
 }
 
 serve({ servedir: './www' }, config)

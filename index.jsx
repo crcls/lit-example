@@ -30,7 +30,8 @@ const evmContractConditions = [
         }
       ],
       constant: false,
-      stateMutability: "view"
+      stateMutability: "view",
+      type: "function"
     },
     chain,
     returnValueTest: {
