@@ -1,0 +1,21 @@
+{
+  "name": "litexample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node ./serve.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lit-protocol/sdk-browser": "^1.1.226",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@esbuild-plugins/node-modules-polyfill": "^0.1.4",
+    "dotenv": "^16.0.2",
+    "esbuild": "^0.15.9"
+  }
+}
